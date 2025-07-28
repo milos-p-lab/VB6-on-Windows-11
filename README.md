@@ -15,9 +15,7 @@ This package provides a ready-to-use setup for running and compiling VB6 project
 
 - Fully working VB6 IDE on Windows 10 and 11 (including 24H2)
 - No need to manually register ActiveX controls or system DLLs
-- Double Agent included — drop-in replacement for deprecated MS Agent
 - Registry and batch files automate all configuration steps
-- Includes `delaycmd.exe` utility for delayed application execution
 - Supports compiling, editing, and running old projects out-of-the-box
 - Ideal for educational purposes, small utilities, and legacy support
 
@@ -31,7 +29,6 @@ The entire environment is packaged as a self-extracting archive containing:
 - Required OCX/DLL files (e.g. `mscomctl.ocx`, `msstkprp.dll`)
 - Registration scripts (`.reg`, `.bat`) that ensure VB6 components work properly
 - Double Agent runtime to enable applications relying on MS Agent
-- Optional command-line tool `delaycmd.exe` for launching processes with a delay
 
 All actions are performed locally on your machine — no system-level installations or persistent changes beyond what's required for VB6 to function.
 
@@ -39,7 +36,7 @@ All actions are performed locally on your machine — no system-level installati
 
 ## 🛠️ Installation
 
-1. Download the `.exe` installer from the [Releases](https://github.com/your-user/VB6IDE-for-Win11/releases) page.
+1. Download the `.exe` installer from the [Releases]([https://github.com/your-user/VB6IDE-for-Win11/releases](https://github.com/milos-p-lab/VB6-on-Windows-11/releases/)) page.
 2. Run the installer (self-extracting archive) with administrative privileges.
 3. Follow the prompts; all required files will be extracted and configured automatically.
 4. After installation, launch `VB6.exe` from the output folder.
@@ -60,7 +57,7 @@ All actions are performed locally on your machine — no system-level installati
 
 You could — but certain legacy behaviors (e.g., precise startup timing, COM interop, message handling, or agent-like UI features) can’t be easily replicated in .NET or Java.
 
-For example, utilities like `delaycmd.exe` (included here) allow precise control over when and how a dependent application is launched. This can be critical when dealing with shell extensions, startup scripts, or software requiring legacy timing patterns that modern `Process.Start()` (C#) or `Runtime.exec()` (Java) don't handle well.
+For example, utilities like `delaycmd.exe` allow precise control over when and how a dependent application is launched. This can be critical when dealing with shell extensions, startup scripts, or software requiring legacy timing patterns that modern `Process.Start()` (C#) or `Runtime.exec()` (Java) don't handle well.
 
 ---
 
@@ -79,4 +76,3 @@ For example, utilities like `delaycmd.exe` (included here) allow precise control
 This repository provides a preconfigured environment based on existing redistributable components. The author does not distribute proprietary software — the package assumes you have the legal right to use VB6 and related tools.
 
 Use at your own risk.
-
