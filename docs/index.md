@@ -8,7 +8,7 @@ description: "Fast, safe and feature-complete Markdown ⇄ HTML and AmigaGuide �
 
 > Enables editing and running legacy VB6 applications directly on modern Windows.
 
-## 🧩 About
+## 💾 About
 
 This package provides a ready-to-use setup for running and compiling VB6 projects on Windows 10 and 11, without needing virtual machines or manual OCX registration. It's ideal for maintaining old software, analyzing legacy code, or building quick utilities in a familiar environment.
 
@@ -55,7 +55,7 @@ We recommend temporarily disabling real-time protection only during installation
 
 ## 🛠️ Installation
 
-1. Download the `.exe` installer from the [Releases]([https://github.com/your-user/VB6IDE-for-Win11/releases](https://github.com/milos-p-lab/VB6-on-Windows-11/releases/)) page.
+1. Download the `.exe` installer from the [Releases](https://github.com/milos-p-lab/VB6-on-Windows-11/releases/) page.
 2. Run the installer (self-extracting archive) with administrative privileges.
 3. Follow the prompts; all required files will be extracted and configured automatically.
 4. After installation, launch VB6 from the desktop shortcut, which is created automatically by the installer for your convenience.
