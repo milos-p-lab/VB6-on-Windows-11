@@ -106,5 +106,7 @@ Visual Basic 6.0 may be old, but its speed, simplicity, and RAD capabilities sti
 
 Feel free to contribute, open issues, or share your experience with this setup.
 
+---
+
 > ✍️ **Author:** Miloš Perunović  
 > 🗓️ **Date:** 2025-07-28
