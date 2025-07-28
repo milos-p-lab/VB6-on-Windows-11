@@ -25,12 +25,25 @@ This package provides a ready-to-use setup for running and compiling VB6 project
 
 The entire environment is packaged as a self-extracting archive containing:
 
-- The original `VB6.exe` installer
+- The original `VB6.exe` executable and IDE files
+- All necessary runtime libraries and dependencies
+- Preconfigured registry settings to ensure compatibility with modern Windows
+- Batch scripts to automate the registration of ActiveX controls and system libraries
 - Required OCX/DLL files (e.g. `mscomctl.ocx`, `msstkprp.dll`)
 - Registration scripts (`.reg`, `.bat`) that ensure VB6 components work properly
-- Double Agent runtime to enable applications relying on MS Agent
+- A desktop shortcut for easy access to the VB6 IDE
 
 All actions are performed locally on your machine — no system-level installations or persistent changes beyond what's required for VB6 to function.
+
+---
+
+## 🔐 Antivirus Warning
+
+Some antivirus programs — including Windows Defender — may flag the self-extracting installation archive as suspicious or even as malware. This is a **false positive**, triggered by the nature of the WinRAR SFX archive, which includes scripts (.bat, .reg) that modify system settings to enable VB6 functionality.
+
+> You can safely run the installer if you downloaded it from this repository. If in doubt, inspect or extract the contents manually before execution.
+
+We recommend temporarily disabling real-time protection only during installation, if necessary, and restoring it immediately afterward.
 
 ---
 
