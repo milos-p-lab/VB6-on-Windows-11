@@ -1,3 +1,9 @@
+---
+title: "Visual Basic 6.0 for Windows 10/11"
+layout: default
+description: "Fast, safe and feature-complete Markdown ⇄ HTML and AmigaGuide → HTML converter written in C#."
+---
+
 # Visual Basic 6.0 for Windows 10/11 — No VM Required
 
 > Enables editing and running legacy VB6 applications directly on modern Windows.
