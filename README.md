@@ -49,7 +49,7 @@ We recommend temporarily disabling real-time protection only during installation
 
 ## 🛠️ Installation
 
-1. Download the `.exe` installer from the [Releases](https://github.com/milos-p-lab/VB6-on-Windows-11/releases/) page.
+1. Download the `Visual-Basic-6-for-Win10-11.exe` installer from the [Releases](https://github.com/milos-p-lab/VB6-on-Windows-11/releases/) page.
 2. Run the installer (self-extracting archive) with administrative privileges.
 3. Follow the prompts; all required files will be extracted and configured automatically.
 4. After installation, launch VB6 from the desktop shortcut, which is created automatically by the installer for your convenience.
