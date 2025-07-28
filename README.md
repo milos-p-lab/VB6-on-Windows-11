@@ -13,17 +13,70 @@ This package provides a ready-to-use setup for running and compiling VB6 project
 
 ## 🚀 Features
 
+- Fully working VB6 IDE on Windows 10 and 11 (including 24H2)
+- No need to manually register ActiveX controls or system DLLs
+- Double Agent included — drop-in replacement for deprecated MS Agent
+- Registry and batch files automate all configuration steps
+- Includes `delaycmd.exe` utility for delayed application execution
+- Supports compiling, editing, and running old projects out-of-the-box
+- Ideal for educational purposes, small utilities, and legacy support
+
 ---
 
 ## 📂 How It Works
+
+The entire environment is packaged as a self-extracting archive containing:
+
+- The original `VB6.exe` installer
+- Required OCX/DLL files (e.g. `mscomctl.ocx`, `msstkprp.dll`)
+- Registration scripts (`.reg`, `.bat`) that ensure VB6 components work properly
+- Double Agent runtime to enable applications relying on MS Agent
+- Optional command-line tool `delaycmd.exe` for launching processes with a delay
+
+All actions are performed locally on your machine — no system-level installations or persistent changes beyond what's required for VB6 to function.
 
 ---
 
 ## 🛠️ Installation
 
+1. Download the `.exe` installer from the [Releases](https://github.com/your-user/VB6IDE-for-Win11/releases) page.
+2. Run the installer (self-extracting archive) with administrative privileges.
+3. Follow the prompts; all required files will be extracted and configured automatically.
+4. After installation, launch `VB6.exe` from the output folder.
+
+> ✅ The environment is portable and doesn't interfere with existing development tools.
+
 ---
 
 ## ⚠️ Limitations
 
-- The solution has been successfully tested on Windows 7, Windows 10, and Windows 11 24H2, but due to variations in system configurations and updates, full compatibility is not guaranteed. Use at your own discretion, especially in production environments.
-- Use at your own risk. Microsoft does not officially support VB6 on modern systems. This setup is intended for software preservation, educational purposes, and maintaining legacy tools.
+- The solution has been successfully tested on Windows 7, Windows 10, and Windows 11 (24H2), but due to variations in system configurations and updates, full compatibility is not guaranteed.
+- Microsoft officially ended support for VB6 development tools; this package is provided for educational, archival, and legacy support purposes.
+- This setup is **not recommended** for creating new business applications — for long-term development, consider porting to modern technologies such as .NET.
+
+---
+
+## 💡 Why not just recompile in C#, Java, etc.?
+
+You could — but certain legacy behaviors (e.g., precise startup timing, COM interop, message handling, or agent-like UI features) can’t be easily replicated in .NET or Java.
+
+For example, utilities like `delaycmd.exe` (included here) allow precise control over when and how a dependent application is launched. This can be critical when dealing with shell extensions, startup scripts, or software requiring legacy timing patterns that modern `Process.Start()` (C#) or `Runtime.exec()` (Java) don't handle well.
+
+---
+
+## 🧳 Use Cases
+
+- Recovering and analyzing old VB6 code
+- Maintaining legacy desktop utilities still in production use
+- Developing small tools or prototypes using familiar VB6 workflow
+- Educational exploration of legacy programming paradigms
+- Avoiding the need for full virtual machine environments
+
+---
+
+## 📃 License
+
+This repository provides a preconfigured environment based on existing redistributable components. The author does not distribute proprietary software — the package assumes you have the legal right to use VB6 and related tools.
+
+Use at your own risk.
+
