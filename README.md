@@ -58,8 +58,6 @@ We recommend temporarily disabling real-time protection only during installation
 3. Follow the prompts; all required files will be extracted and configured automatically.
 4. After installation, launch VB6 from the desktop shortcut, which is created automatically by the installer for your convenience.
 
-> ✅ The environment is portable and doesn't interfere with existing development tools.
-
 ✅ Tested successfully on:
 
 - **Windows 11 (23H2, 24H2)**
