@@ -60,6 +60,13 @@ We recommend temporarily disabling real-time protection only during installation
 
 > ✅ The environment is portable and doesn't interfere with existing development tools.
 
+✅ Tested successfully on:
+
+- **Windows 11 (23H2, 24H2)**
+- **Windows 10 (22H2)**
+- **Windows 7 SP1**
+- **Windows XP SP3**
+
 ---
 
 ## ⚠️ Limitations
