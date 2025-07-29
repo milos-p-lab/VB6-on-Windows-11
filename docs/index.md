@@ -39,7 +39,7 @@ The entire environment is packaged as a self-extracting archive containing:
 - Batch scripts to automate the registration of ActiveX controls and system libraries
 - Required OCX/DLL files (e.g. `mscomctl.ocx`, `msstkprp.dll`)
 - Registration scripts (`.reg`, `.bat`) that ensure VB6 components work properly
-- A desktop shortcut for easy access to the VB6 IDE
+- A desktop and Start menu shortcut for easy access to the VB6 IDE
 
 All actions are performed locally on your machine — no system-level installations or persistent changes beyond what's required for VB6 to function.
 
