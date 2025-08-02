@@ -34,8 +34,9 @@ The process was a mix of research, scripting, testing on fresh machines, and doc
 ✅ Tested successfully on:
 
 - **Windows 11 (23H2, 24H2)**
-- **Windows 10 (22H2)**
+- **Windows 10**
 - **Windows 7 SP1**
+- **Windows Server 2003 R2**
 - **Windows XP SP3**
 
 In all cases, VB6 IDE launched correctly, projects loaded and compiled, and ActiveX controls worked inside the designer — without needing a virtual machine.
