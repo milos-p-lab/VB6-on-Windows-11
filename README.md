@@ -11,7 +11,7 @@ This package provides a ready-to-use setup for running and compiling VB6 project
 👉 For background information, setup explanations, and optional components, see the [blog post](https://milos-p-lab.github.io/VB6-on-Windows-11/blog).
 
 > ✍️ **Author:** Miloš Perunović  
-> 🗓️ **Date:** 2025-07-29
+> 🗓️ **Date:** 2025-08-06
 
 ---
 
@@ -72,6 +72,29 @@ We recommend temporarily disabling real-time protection only during installation
 - The solution has been successfully tested on Windows 7, Windows 10, and Windows 11 (24H2), but due to variations in system configurations and updates, full compatibility is not guaranteed.
 - Microsoft officially ended support for VB6 development tools; this package is provided for educational, archival, and legacy support purposes.
 - This setup is **not recommended** for creating new business applications — for long-term development, consider porting to modern technologies such as .NET.
+
+---
+
+## ⚠️ Note on MSCOMCTL.OCX Version
+
+This setup includes version 6.1.98.34 of MSCOMCTL.OCX, which is the official version shipped with Microsoft Visual Basic 6.0 Service Pack 6 (SP6).
+
+You may have a newer version installed (e.g., 6.1.98.46, 6.1.98.50), which could have been registered by:
+
+- Microsoft Office (2007–2016)
+- Windows Update security patches
+- Other applications bundling ActiveX controls
+
+These newer versions are not part of the official VB6 SP6 distribution and sometimes introduce subtle compatibility issues.
+
+👉 Recommendation:
+If you rely on a newer version of MSCOMCTL.OCX, feel free to re-register it after installing this package using:
+
+```batch
+regsvr32 /s "C:\Path\To\Your\Newer\MSCOMCTL.OCX"
+```
+
+This project aims for maximum stability and compatibility with legacy VB6 projects, and therefore ships the original SP6 version by default.
 
 ---
 
