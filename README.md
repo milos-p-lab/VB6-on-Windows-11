@@ -51,23 +51,6 @@ We recommend temporarily disabling real-time protection only during installation
 
 ---
 
-## 🛠️ Installation
-
-1. Download the `Visual-Basic-6-for-Win10-11.exe` installer from the [Releases](https://github.com/milos-p-lab/VB6-on-Windows-11/releases/) page.
-2. Run the installer (self-extracting archive) with administrative privileges.
-3. Follow the prompts; all required files will be extracted and configured automatically.
-4. After installation, launch VB6 from the desktop shortcut, which is created automatically by the installer for your convenience.
-
-✅ Tested successfully on:
-
-- **Windows 11 (23H2, 24H2)**
-- **Windows 10 (22H2)**
-- **Windows 7 SP1**
-- **Windows Server 2003 R2**
-- **Windows XP SP3**
-
----
-
 ## ⚠️ Limitations
 
 - The solution has been successfully tested on Windows 7, Windows 10, and Windows 11 (24H2), but due to variations in system configurations and updates, full compatibility is not guaranteed.
@@ -96,6 +79,23 @@ regsvr32 /s "C:\Path\To\Your\Newer\MSCOMCTL.OCX"
 ```
 
 This project aims for maximum stability and compatibility with legacy VB6 projects, and therefore ships the original SP6 version by default.
+
+---
+
+## 🛠️ Installation
+
+1. Download the `Visual-Basic-6-for-Win10-11.exe` installer from the [Releases](https://github.com/milos-p-lab/VB6-on-Windows-11/releases/) page.
+2. Run the installer (self-extracting archive) with administrative privileges.
+3. Follow the prompts; all required files will be extracted and configured automatically.
+4. After installation, launch VB6 from the desktop shortcut, which is created automatically by the installer for your convenience.
+
+✅ Tested successfully on:
+
+- **Windows 11 (23H2, 24H2)**
+- **Windows 10 (22H2)**
+- **Windows 7 SP1**
+- **Windows Server 2003 R2**
+- **Windows XP SP3**
 
 ---
 
