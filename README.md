@@ -63,6 +63,7 @@ We recommend temporarily disabling real-time protection only during installation
 - **Windows 11 (23H2, 24H2)**
 - **Windows 10 (22H2)**
 - **Windows 7 SP1**
+- **Windows Server 2003 R2**
 - **Windows XP SP3**
 
 ---
