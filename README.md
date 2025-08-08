@@ -57,7 +57,7 @@ We recommend temporarily disabling real-time protection only during installation
 - Microsoft officially ended support for VB6 development tools; this package is provided for educational, archival, and legacy support purposes.
 - This setup is **not recommended** for creating new business applications — for long-term development, consider porting to modern technologies such as .NET.
 
-### Note on ActiveX Component Versions (e.g., MSCOMCTL.OCX)
+## 💡 Note on ActiveX Component Versions (e.g., MSCOMCTL.OCX)
 
 This setup includes the official versions of key ActiveX components shipped with Microsoft Visual Basic 6.0 Service Pack 6 (SP6).
 For example, MSCOMCTL.OCX is provided in version 6.1.98.34, which is the original SP6 release.
