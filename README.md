@@ -11,7 +11,7 @@ This package provides a ready-to-use setup for running and compiling VB6 project
 👉 For background information, setup explanations, and optional components, see the [blog post](https://milos-p-lab.github.io/VB6-on-Windows-11/blog).
 
 > ✍️ **Author:** Miloš Perunović  
-> 🗓️ **Date:** 2025-08-06
+> 🗓️ **Date:** 2025-08-08
 
 ---
 
@@ -59,7 +59,7 @@ We recommend temporarily disabling real-time protection only during installation
 
 ---
 
-## ⚠️ Note on MSCOMCTL.OCX Version
+### Note on MSCOMCTL.OCX Version
 
 This setup includes version 6.1.98.34 of MSCOMCTL.OCX, which is the official version shipped with Microsoft Visual Basic 6.0 Service Pack 6 (SP6).
 
