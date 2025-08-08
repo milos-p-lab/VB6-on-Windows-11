@@ -1,4 +1,4 @@
-# Visual Basic 6.0 for Windows 10/11 — No VM Required
+# Visual Basic 6.0 for Windows 7/10/11 — No VM Required
 
 [![License: MIT](https://img.shields.io/badge/License-as_is-yellow.svg)](LICENSE) [![Visual Basic 6](https://img.shields.io/badge/Visual%20Basic-6-darkcyan.svg)](https://learn.microsoft.com/en-us/previous-versions/visualstudio/visual-basic-6/visual-basic-6.0-documentation)
 
@@ -17,7 +17,7 @@ This package provides a ready-to-use setup for running and compiling VB6 project
 
 ## 🚀 Features
 
-- Fully working VB6 IDE on Windows 10 and 11 (including 24H2)
+- Fully working VB6 IDE on Windows XP / 7 / 10 and 11 (including 24H2)
 - No need to manually register ActiveX controls or system DLLs
 - Registry and batch files automate all configuration steps
 - Supports compiling, editing, and running old projects out-of-the-box
