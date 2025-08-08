@@ -59,10 +59,10 @@ We recommend temporarily disabling real-time protection only during installation
 
 ---
 
-## 💡 Note on ActiveX Component Versions (e.g., MSCOMCTL.OCX)
+## 💡 Note on ActiveX Component Versions (e.g., mscomctl.ocx)
 
 This setup includes the official versions of key ActiveX components shipped with Microsoft Visual Basic 6.0 Service Pack 6 (SP6).
-For example, MSCOMCTL.OCX is provided in version 6.1.98.34, which is the original SP6 release.
+For example, `mscomctl.ocx` is provided in version 6.1.98.34, which is the original SP6 release.
 
 You may currently have newer versions of these files installed (e.g., 6.1.98.46, 6.1.98.50), which might have been registered by:
 
@@ -77,9 +77,9 @@ You may currently have newer versions of these files installed (e.g., 6.1.98.46,
 If an existing OCX/DLL file is found during setup, it will be backed up before being replaced — for example:
 
 ``` plaintext
-MSCOMCTL.OCX.old
-COMDLG32.OCX.old
-TABCTL32.OCX.old
+mscomctl.ocx.old
+comdlg32.ocx.old
+tabctl32.ocx.old
 ```
 
 This allows you to easily restore your previous version — which may be newer — if you wish to keep it.
@@ -89,7 +89,7 @@ This allows you to easily restore your previous version — which may be newer �
 If you want to restore a backed-up file, simply re-register it using:
 
 ``` batch
-regsvr32 /s "C:\VB6Backup\MSCOMCTL.OCX.old"
+regsvr32 /s "C:\VB6Backup\mscomctl.ocx.old"
 ```
 
 Or, for a different file:
@@ -99,7 +99,7 @@ regsvr32 /s "C:\VB6Backup\SomeOtherControl.dll.old"
 
 ```
 
-(Adjust paths as needed — the .old files will be in the same folder as the replaced files unless moved manually.)
+(Adjust paths as needed — the `.old` files will be in the same folder as the replaced files unless moved manually.)
 
 This project aims for maximum stability and compatibility with legacy VB6 projects, so original SP6 versions are shipped by default — but your backups give you full control.
 
@@ -107,7 +107,7 @@ This project aims for maximum stability and compatibility with legacy VB6 projec
 
 ## 🛠️ Installation
 
-1. Download the `Visual-Basic-6-for-Win10-11.exe` installer from the [Releases](https://github.com/milos-p-lab/VB6-on-Windows-11/releases/) page.
+1. Download the `Visual-Basic-6-for-Win11.exe` installer from the [Releases](https://github.com/milos-p-lab/VB6-on-Windows-11/releases/) page.
 2. Run the installer (self-extracting archive) with administrative privileges.
 3. Follow the prompts; all required files will be extracted and configured automatically.
 4. After installation, launch VB6 from the desktop shortcut, which is created automatically by the installer for your convenience.
