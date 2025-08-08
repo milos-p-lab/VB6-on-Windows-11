@@ -57,8 +57,6 @@ We recommend temporarily disabling real-time protection only during installation
 - Microsoft officially ended support for VB6 development tools; this package is provided for educational, archival, and legacy support purposes.
 - This setup is **not recommended** for creating new business applications — for long-term development, consider porting to modern technologies such as .NET.
 
----
-
 ### Note on MSCOMCTL.OCX Version
 
 This setup includes version 6.1.98.34 of MSCOMCTL.OCX, which is the official version shipped with Microsoft Visual Basic 6.0 Service Pack 6 (SP6).
