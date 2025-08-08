@@ -87,7 +87,12 @@ This is not bundled in the main installer to reduce size and because only a smal
 
 Some old utilities and small tools have been extracted and modernized as part of this effort. These are placed in a separate folder:
 
-➡️ [vb6-projects](https://github.com/milos-p-lab/VB6-on-Windows-11/tree/main/vb6-projects)
+[vb6-examples](https://github.com/milos-p-lab/VB6-on-Windows-11/tree/main/vb6-examples)
+
+- Misc examples of VB6 code that still work on modern systems
+- Small utilities that demonstrate VB6 capabilities
+
+[vb6-projects](https://github.com/milos-p-lab/VB6-on-Windows-11/tree/main/vb6-projects)
 
 This includes:
 
@@ -95,6 +100,8 @@ This includes:
 - Source code (.vbp, .frm, .bas) is included for learning or reuse.
 
 None of these examples are included in the main setup (Visual-Basic-6-for-Win10-11.exe) to keep it clean and focused. You can browse and build them separately if needed.
+
+---
 
 ## ⚠️ About Compatibility
 

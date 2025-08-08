@@ -14,9 +14,6 @@ This package provides a ready-to-use setup for running and compiling VB6 project
 
 👉 For background information, setup explanations, and optional components, see the [blog post](https://milos-p-lab.github.io/VB6-on-Windows-11/blog).
 
-> ✍️ **Author:** Miloš Perunović  
-> 🗓️ **Date:** 2025-07-29
-
 ---
 
 ## 🚀 Features
@@ -57,7 +54,7 @@ We recommend temporarily disabling real-time protection only during installation
 
 ## 🛠️ Installation
 
-1. Download the `Visual-Basic-6-for-Win10-11.exe` installer from the [Releases](https://github.com/milos-p-lab/VB6-on-Windows-11/releases/) page.
+1. Download the `Visual-Basic-6-for-Win11.exe` installer from the [Releases](https://github.com/milos-p-lab/VB6-on-Windows-11/releases/) page.
 2. Run the installer (self-extracting archive) with administrative privileges.
 3. Follow the prompts; all required files will be extracted and configured automatically.
 4. After installation, launch VB6 from the desktop shortcut, which is created automatically by the installer for your convenience.
@@ -102,3 +99,7 @@ For example, utilities like `delaycmd.exe` allow precise control over when and h
 This repository provides a preconfigured environment based on existing redistributable components. The author does not distribute proprietary software — the package assumes you have the legal right to use VB6 and related tools.
 
 Use at your own risk.
+
+---
+
+✍️ **Author:** Miloš Perunović  
