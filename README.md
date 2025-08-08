@@ -57,26 +57,47 @@ We recommend temporarily disabling real-time protection only during installation
 - Microsoft officially ended support for VB6 development tools; this package is provided for educational, archival, and legacy support purposes.
 - This setup is **not recommended** for creating new business applications — for long-term development, consider porting to modern technologies such as .NET.
 
-### Note on MSCOMCTL.OCX Version
+### Note on ActiveX Component Versions (e.g., MSCOMCTL.OCX)
 
-This setup includes version 6.1.98.34 of MSCOMCTL.OCX, which is the official version shipped with Microsoft Visual Basic 6.0 Service Pack 6 (SP6).
+This setup includes the official versions of key ActiveX components shipped with Microsoft Visual Basic 6.0 Service Pack 6 (SP6).
+For example, MSCOMCTL.OCX is provided in version 6.1.98.34, which is the original SP6 release.
 
-You may have a newer version installed (e.g., 6.1.98.46, 6.1.98.50), which could have been registered by:
+You may currently have newer versions of these files installed (e.g., 6.1.98.46, 6.1.98.50), which might have been registered by:
 
 - Microsoft Office (2007–2016)
 - Windows Update security patches
-- Other applications bundling ActiveX controls
+- Other software bundling ActiveX controls
 
-These newer versions are not part of the official VB6 SP6 distribution and sometimes introduce subtle compatibility issues.
+## 💾 Automatic Backup Before Overwriting
 
-👉 Recommendation:
-If you rely on a newer version of MSCOMCTL.OCX, feel free to re-register it after installing this package using:
+If an existing OCX/DLL file is found during setup, it will be backed up before being replaced — for example:
 
-```batch
-regsvr32 /s "C:\Path\To\Your\Newer\MSCOMCTL.OCX"
+``` plaintext
+MSCOMCTL.OCX.old
+COMDLG32.OCX.old
+TABCTL32.OCX.old
 ```
 
-This project aims for maximum stability and compatibility with legacy VB6 projects, and therefore ships the original SP6 version by default.
+This allows you to easily restore your previous version — which may be newer — if you wish to keep it.
+
+👉 Recommendation
+
+If you want to restore a backed-up file, simply re-register it using:
+
+``` batch
+regsvr32 /s "C:\VB6Backup\MSCOMCTL.OCX.old"
+```
+
+Or, for a different file:
+
+``` batch
+regsvr32 /s "C:\VB6Backup\SomeOtherControl.dll.old"
+
+```
+
+(Adjust paths as needed — the .old files will be in the same folder as the replaced files unless moved manually.)
+
+This project aims for maximum stability and compatibility with legacy VB6 projects, so original SP6 versions are shipped by default — but your backups give you full control.
 
 ---
 
