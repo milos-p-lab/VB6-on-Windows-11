@@ -20,7 +20,7 @@ Getting VB6 to run on Windows 11 (especially 24H2) wasn't straightforward. Here 
 
 - The **original installer fails** or freezes on modern Windows.
 - The IDE loads, but **fails to render** certain controls like `Toolbar`, `StatusBar`, or `ImageList`.
-- The infamous `MSCOMCTL.OCX` is either missing or fails to register properly.
+- The infamous `mscomctl.ocx` is either missing or fails to register properly.
 - **Double Agent** (used as a modern MS Agent replacement) must be manually registered.
 - Running old `.exe` files compiled in VB6 often fails without **runtime dependencies**.
 - Antivirus software occasionally flags **self-extracting archives** (SFX) as false positives.
@@ -61,7 +61,7 @@ The archive includes:
 
 - Visual Basic 6.0 IDE (fully functional)
 - All essential ActiveX controls and design-time libraries
-- Pre-registered components (`MSCOMCTL.OCX`, `MSFLXGRD.OCX`, `MSCHRT20.OCX`, etc.)
+- Pre-registered components (`mscomctl.ocx`, `msflxgrd.ocx`, `mschrt20.ocx`, etc.)
 - IDE fixes for Windows 10/11 (e.g., `msstkprp.dll` for toolbar editing)
 - Automated setup via `.bat` and `.reg` files
 - No patching or hex-editing — just unpack and use
