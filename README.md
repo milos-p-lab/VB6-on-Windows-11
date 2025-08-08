@@ -53,9 +53,11 @@ We recommend temporarily disabling real-time protection only during installation
 
 ## ⚠️ Limitations
 
-- The solution has been successfully tested on Windows 7, Windows 10, and Windows 11 (24H2), but due to variations in system configurations and updates, full compatibility is not guaranteed.
+- The solution has been successfully tested on Windows XP / 7 / 10 / 11 (24H2), but due to variations in system configurations and updates, full compatibility is not guaranteed.
 - Microsoft officially ended support for VB6 development tools; this package is provided for educational, archival, and legacy support purposes.
 - This setup is **not recommended** for creating new business applications — for long-term development, consider porting to modern technologies such as .NET.
+
+---
 
 ## 💡 Note on ActiveX Component Versions (e.g., MSCOMCTL.OCX)
 
@@ -67,6 +69,8 @@ You may currently have newer versions of these files installed (e.g., 6.1.98.46,
 - Microsoft Office (2007–2016)
 - Windows Update security patches
 - Other software bundling ActiveX controls
+
+---
 
 ## 💾 Automatic Backup Before Overwriting
 

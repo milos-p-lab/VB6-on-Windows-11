@@ -7,18 +7,29 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
-## [1.0.2] – 2025-07-29
+## [1.0.3] – 2025-08-08
+
 ### Changed
+
+- 💡 New in v1.0.3:
+  - The setup now makes a backup of any existing OCX/DLL file before overwriting it (e.g. MSCOMCTL.OCX.old). This allows you to restore your original version if needed.
+
+## [1.0.2] – 2025-07-29
+
+### Changed
+
 - Start VB6 IDE without UAC prompt.
 
 ## [1.0.1] – 2025-07-28
 
 ### Fixed
+
 - Import registry settings on Windows 7.
 
 ## [1.0.0] – 2025-07-28
 
 ### Added
+
 - Initial release.
 - Self-extracting archive containing VB6 IDE and runtime files.
 - Automated registration of ActiveX controls and system libraries.
