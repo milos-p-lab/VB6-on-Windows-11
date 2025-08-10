@@ -2,8 +2,7 @@
 
 All notable changes to this project will be documented in this file.
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),  
-and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ---
 
@@ -11,8 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- 💡 New in v1.0.3:
-  - The setup now makes a backup of any existing OCX/DLL file before overwriting it (e.g. mscomctl.ocx.old). This allows you to restore your original version if needed.
+- The setup now makes a backup of any existing OCX/DLL file before overwriting it (e.g. mscomctl.ocx.old). This allows you to restore your original version if needed.
 
 ## [1.0.2] – 2025-07-29
 
