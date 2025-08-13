@@ -76,7 +76,7 @@ We recommend temporarily disabling real-time protection only during installation
 
 ---
 
-## 💡 Why not just recompile in C#, Java, etc.?
+## ❓ Why not just recompile in C#, Java, etc.?
 
 You could — but certain legacy behaviors (e.g., precise startup timing, COM interop, message handling, or agent-like UI features) can’t be easily replicated in .NET or Java.
 
