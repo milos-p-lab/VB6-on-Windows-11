@@ -4,7 +4,7 @@
 
 > Enables editing and running legacy VB6 applications directly on modern Windows.
 
-## 💾 About
+## ℹ️ About
 
 This package provides a ready-to-use setup for running and compiling VB6 projects on Windows 10 and 11, without needing virtual machines or manual OCX registration. It's ideal for maintaining old software, analyzing legacy code, or building quick utilities in a familiar environment.
 
@@ -123,7 +123,7 @@ This project aims for maximum stability and compatibility with legacy VB6 projec
 
 ---
 
-## 💡 Why not just recompile in C#, Java, etc.?
+## ❓ Why not just recompile in C#, Java, etc.?
 
 You could — but certain legacy behaviors (e.g., precise startup timing, COM interop, message handling, or agent-like UI features) can’t be easily replicated in .NET or Java.
 
