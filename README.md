@@ -80,6 +80,7 @@ If an existing OCX/DLL file is found during setup, it will be backed up before b
 mscomctl.ocx.old
 comdlg32.ocx.old
 tabctl32.ocx.old
+etc.
 ```
 
 This allows you to easily restore your previous version — which may be newer — if you wish to keep it.
@@ -140,7 +141,7 @@ For example, utilities like `delaycmd.exe` allow precise control over when and h
 
 ---
 
-## 📃 License
+## ⚖️ License
 
 This repository provides a preconfigured environment based on existing redistributable components. The author does not distribute proprietary software — the package assumes you have the legal right to use VB6 and related tools.
 
