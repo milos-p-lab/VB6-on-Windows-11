@@ -11,6 +11,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ### Changed
 
 - The setup now makes a backup of any existing OCX/DLL file before overwriting it (e.g. mscomctl.ocx.old). This allows you to restore your original version if needed.
+  - ☝ This project aims for maximum stability and compatibility with legacy VB6 projects, so original SP6 versions are shipped by default — but your backups give you full control.
 
 ## [1.0.2] – 2025-07-29
 
