@@ -15,7 +15,7 @@ This package provides a ready-to-use setup for running and compiling VB6 project
 
 ---
 
-## 🚀 Features
+## ✅ Features
 
 - Fully working VB6 IDE on Windows XP / 7 / 10 and 11 (including 24H2)
 - No need to manually register ActiveX controls or system DLLs
@@ -25,7 +25,7 @@ This package provides a ready-to-use setup for running and compiling VB6 project
 
 ---
 
-## 📂 How It Works
+## ⚙️ How It Works
 
 The entire environment is packaged as a self-extracting archive containing:
 
@@ -123,7 +123,7 @@ This project aims for maximum stability and compatibility with legacy VB6 projec
 
 ---
 
-## ❓ Why not just recompile in C#, Java, etc.?
+## ❔ Why not just recompile in C#, Java, etc.?
 
 You could — but certain legacy behaviors (e.g., precise startup timing, COM interop, message handling, or agent-like UI features) can’t be easily replicated in .NET or Java.
 
