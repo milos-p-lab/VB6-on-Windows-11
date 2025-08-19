@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://milos-p-lab.github.io/VB6-on-Windows-11/sitemap.xml
