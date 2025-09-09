@@ -115,8 +115,9 @@ This project aims for maximum stability and compatibility with legacy VB6 projec
 
 ✅ Tested successfully on:
 
-- **Windows 11 (23H2, 24H2)**
-- **Windows 10 (22H2)**
+- **Windows 11 (including 24H2)**
+- **Windows 10**
+- **Windows Server 2022**
 - **Windows 7 SP1**
 - **Windows Server 2003 R2**
 - **Windows XP SP3**
