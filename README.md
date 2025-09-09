@@ -11,7 +11,7 @@ This package provides a ready-to-use setup for running and compiling VB6 project
 👉 For background information, setup explanations, and optional components, see the [blog post](https://milos-p-lab.github.io/VB6-on-Windows-11/blog).
 
 > ✍️ **Author:** Miloš Perunović  
-> 🗓️ **Date:** 2025-08-08
+> 🗓️ **Date:** 2025-09-09
 
 ---
 
@@ -146,3 +146,19 @@ For example, utilities like `delaycmd.exe` allow precise control over when and h
 This repository provides a preconfigured environment based on existing redistributable components. The author does not distribute proprietary software — the package assumes you have the legal right to use VB6 and related tools.
 
 Use at your own risk.
+
+⚠️ **Note on Issues**  
+Only reproducible, VB6-related problems are accepted. Off-topic or untested suggestions will be closed without discussion.  
+
+---
+
+## 🤝 Contributing & Issues
+
+This project is provided **as-is**, with the goal of making legacy VB6 projects easier to run and maintain on modern Windows.
+
+- ✅ Issues are welcome if they describe **real, reproducible problems** (installation errors, missing components, runtime crashes).
+- ✅ Suggestions for improvements are welcome **if tested** and directly relevant to VB6 compatibility.
+- ⚠️ Please avoid stylistic feedback (e.g., folder names, comments inside `.bat` files, or alternative approaches without testing).
+- ⚠️ This is **not** a forum for “why do you use VB6?” discussions. The project exists for those who need it.
+
+Unhelpful or off-topic issues may be closed without further discussion to keep the focus on maintaining legacy VB6 compatibility.
