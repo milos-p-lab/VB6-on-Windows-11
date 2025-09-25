@@ -116,6 +116,7 @@ This project aims for maximum stability and compatibility with legacy VB6 projec
 💡 **Tip:** The installer is a standard WinRAR self-extracting (SFX) archive.  
 If you’d like to review its contents before running, just open the `.exe` with **WinRAR** or **7-Zip** (right-click → *Open with…*).  
 This lets you inspect all included files without starting the installation.
+
 ✅ Tested successfully on:
 
 - **Windows 11 (including 24H2)**
