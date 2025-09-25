@@ -11,7 +11,7 @@ This package provides a ready-to-use setup for running and compiling VB6 project
 👉 For background information, setup explanations, and optional components, see the [blog post](https://milos-p-lab.github.io/VB6-on-Windows-11/blog).
 
 > ✍️ **Author:** Miloš Perunović  
-> 🗓️ **Date:** 2025-09-09
+> 🗓️ **Date:** 2025-09-25
 
 ---
 
@@ -113,6 +113,9 @@ This project aims for maximum stability and compatibility with legacy VB6 projec
 3. Follow the prompts; all required files will be extracted and configured automatically.
 4. After installation, launch VB6 from the desktop shortcut, which is created automatically by the installer for your convenience.
 
+💡 **Tip:** The installer is a standard WinRAR self-extracting (SFX) archive.  
+If you’d like to review its contents before running, just open the `.exe` with **WinRAR** or **7-Zip** (right-click → *Open with…*).  
+This lets you inspect all included files without starting the installation.
 ✅ Tested successfully on:
 
 - **Windows 11 (including 24H2)**
