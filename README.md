@@ -146,6 +146,21 @@ For example, utilities like `delaycmd.exe` allow precise control over when and h
 
 ---
 
+## 🌟 Looking Ahead: twinBASIC
+
+While this project makes it possible to run and maintain classic VB6 applications on modern Windows, the **future** of VB6-style development is [twinBASIC](https://twinbasic.com/).
+
+- ✅ 32-bit **and** 64-bit executables  
+- ✅ Modern component support (including WebView2)  
+- ✅ Actively developed and community-driven  
+- ❌ Still missing some legacy-specific features (e.g., DataEnvironment, DataReport, MS Agent/Double Agent), which are important in certain business applications  
+
+This project serves as a **compatibility bridge** — ensuring that old VB6 applications can still be compiled and maintained today, while twinBASIC continues to evolve into a full replacement.  
+
+👉 **Note:** If your project depends on these legacy features, the original VB6 IDE remains the only option for editing and compiling. For all new development, however, twinBASIC is strongly recommended as the long-term solution.
+
+---
+
 ## ⚖️ License
 
 This repository provides a preconfigured environment based on existing redistributable components. The author does not distribute proprietary software — the package assumes you have the legal right to use VB6 and related tools.
