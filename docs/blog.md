@@ -33,25 +33,14 @@ The process was a mix of research, scripting, testing on fresh machines, and doc
 
 ✅ Tested successfully on:
 
-- **Windows 11 (23H2, 24H2)**
+- **Windows 11 (including 24H2)**
 - **Windows 10**
+- **Windows Server 2022**
 - **Windows 7 SP1**
 - **Windows Server 2003 R2**
 - **Windows XP SP3**
 
 In all cases, VB6 IDE launched correctly, projects loaded and compiled, and ActiveX controls worked inside the designer — without needing a virtual machine.
-
----
-
-## 🧪 Delay Launcher: Solving `Process.Start()` Issues
-
-One interesting part of this project was the creation of `delaycmd.exe` — a small utility that **delays execution of another program** by a few seconds. While this may seem trivial, it's often essential for:
-
-- Ensuring registry keys or COM components are fully registered before launch.
-- Delaying startup in scripts, without relying on PowerShell or batch tricks.
-- Working around race conditions during installations or first-run setups.
-
-Unlike C#’s `Process.Start()` or Java’s `Runtime.getRuntime().exec()`, which may exit before child processes are fully initialized, this utility offers **precise control** in a native binary with zero dependencies.
 
 ---
 
@@ -80,6 +69,18 @@ To enable it:
 2. Your existing VB6 forms using MS Agent will work without modification.
 
 This is not bundled in the main installer to reduce size and because only a small number of legacy projects depend on it.
+
+---
+
+## 🧪 Delay Launcher: Solving `Process.Start()` Issues
+
+One interesting part of this project was the creation of `delaycmd.exe` — a small utility that **delays execution of another program** by a few seconds. While this may seem trivial, it's often essential for:
+
+- Ensuring registry keys or COM components are fully registered before launch.
+- Delaying startup in scripts, without relying on PowerShell or batch tricks.
+- Working around race conditions during installations or first-run setups.
+
+Unlike C#’s `Process.Start()` or Java’s `Runtime.getRuntime().exec()`, which may exit before child processes are fully initialized, this utility offers **precise control** in a native binary with zero dependencies.
 
 ---
 
