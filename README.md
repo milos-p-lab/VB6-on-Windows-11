@@ -1,6 +1,6 @@
 # Visual Basic 6 for Windows 7/10/11 — No VM Required
 
-[![License: MIT](https://img.shields.io/badge/License-as_is-yellow.svg)](LICENSE) [![Visual Basic 6](https://img.shields.io/badge/Visual%20Basic-6-darkcyan.svg)](https://learn.microsoft.com/en-us/previous-versions/visualstudio/visual-basic-6/visual-basic-6.0-documentation) [![Github All Releases](https://img.shields.io/github/downloads/<-- User Name-->/<-- Your Repo Name-->/total.svg)]()
+[![License: MIT](https://img.shields.io/badge/License-as_is-yellow.svg)](LICENSE) [![Visual Basic 6](https://img.shields.io/badge/Visual%20Basic-6-darkcyan.svg)](https://learn.microsoft.com/en-us/previous-versions/visualstudio/visual-basic-6/visual-basic-6.0-documentation) [![Github All Releases](https://img.shields.io/github/downloads/milos-p-lab/VB6-on-Windows-11/total.svg)]()
 
 > Enables editing and running legacy VB6 applications directly on modern Windows.
 
