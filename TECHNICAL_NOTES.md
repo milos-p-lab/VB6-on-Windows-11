@@ -34,20 +34,7 @@ schtasks /Create /TN "M%TASKNAME%-%USERNAME%" /xml "%TMPXML%"
 
 ---
 
-## 3. DLL/OCX Registration and Backup
-
-All required VB6 runtime components (.DLL and .OCX files) are copied into the appropriate system directories and registered silently using regsvr32.
-Before overwriting, the script creates a backup of any existing files with the .old extension (e.g., MSCOMCTL.OCX.old) to preserve the previous state.
-
-This approach:
-
-- Ensures predictable behavior across different machines,
-- Preserves user-installed versions in case they need to restore them later,
-- Helps avoid subtle runtime mismatches that often happen with ActiveX controls.
-
----
-
-## 4. MSCOMCTL.OCX Version Note
+## 3. MSCOMCTL.OCX Version Note
 
 This package includes version 6.1.98.34 of MSCOMCTL.OCX, which is the official version shipped with Microsoft Visual Basic 6.0 Service Pack 6 (SP6).
 
@@ -59,9 +46,12 @@ Some systems may have newer versions (e.g. 6.1.98.46, 6.1.98.50) installed via:
 
 These newer versions are not part of the official SP6 distribution and occasionally introduce compatibility issues with legacy VB6 projects.
 
-### 💾 Automatic Backup Before Overwriting
+---
 
-If an existing OCX/DLL file is found during setup, it will be backed up before being replaced — for example:
+## 4. DLL/OCX Registration and Backup
+
+All required VB6 runtime components (.DLL and .OCX files) are copied into the appropriate system directories and registered silently using regsvr32.
+Before overwriting, the script creates a backup of any existing files with the .old extension (e.g., MSCOMCTL.OCX.old) to preserve the previous state - for example:
 
 ``` plaintext
 mscomctl.ocx.old
@@ -69,6 +59,14 @@ comdlg32.ocx.old
 tabctl32.ocx.old
 etc.
 ```
+
+This approach:
+
+- Ensures predictable behavior across different machines,
+- Preserves user-installed versions in case they need to restore them later,
+- Helps avoid subtle runtime mismatches that often happen with ActiveX controls.
+
+If an existing OCX/DLL file is found during setup, it will be backed up before being replaced — for example:
 
 This allows you to easily restore your previous version — which may be newer — if you wish to keep it.
 👉 If you rely on a newer version of MSCOMCTL.OCX or any other ActiveX control, simply re-register your preferred file manually, e.g.:
@@ -87,10 +85,10 @@ This project aims for maximum stability and compatibility with legacy VB6 projec
 
 Several key compatibility fixes are included to make VB6 fully functional on modern systems:
 
-🧾 Data Environment & Data Report
+**Data Environment & Data Report**
 Registry settings are applied to ensure proper loading and editing of Data Report layouts in the VB6 IDE, not just runtime execution.
 
-🧠 Double Agent (MS Agent replacement)
+**Double Agent (MS Agent replacement)**
 Projects that use Microsoft Agent controls can work with Double Agent, which provides modern 32/64-bit replacements compatible with VB6.
 
 Register using:
@@ -99,7 +97,7 @@ Register using:
 regsvr32 /s "C:\Program Files (x86)\Double Agent\DaControl.dll"
 ```
 
-🧰 Toolbar, StatusBar, ImageList Controls
+**Toolbar, StatusBar, ImageList Controls**
 For editing these controls in the IDE (not just runtime), the following must be registered:
 
 ```bat
