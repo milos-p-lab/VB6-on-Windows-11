@@ -10,9 +10,6 @@ This package provides a ready-to-use setup for running and compiling VB6 project
 
 👉 For background information, setup explanations, and optional components, see the [blog post](https://milos-p-lab.github.io/VB6-on-Windows-11/blog).
 
-> ✍️ **Author:** Miloš Perunović  
-> 🗓️ **Date:** 2025-10-10
-
 ---
 
 ## ✅ Features
