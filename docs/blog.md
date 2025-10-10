@@ -55,7 +55,7 @@ The archive includes:
 - Automated setup via `.bat` and `.reg` files
 - No patching or hex-editing — just unpack and use
 
-👉 For detailed technical explanations of the installation and compatibility mechanisms, see [TECHNICAL_NOTES](./blob/main/TECHNICAL_NOTES.md).
+👉 For detailed technical explanations of the installation and compatibility mechanisms, see [TECHNICAL_NOTES](https://github.com/milos-p-lab/VB6-on-Windows-11/blob/main/TECHNICAL_NOTES.md).
 
 ---
 
