@@ -1,7 +1,7 @@
 ---
 title: "Visual Basic 6.0 for Windows 7/10/11"
 layout: default
-description: "Fast, safe and feature-complete Markdown ⇄ HTML and AmigaGuide → HTML converter written in C#."
+description: "Enables editing and running legacy VB6 applications directly on modern Windows."
 ---
 
 # Visual Basic 6.0 for Windows 7/10/11 — No VM Required
@@ -39,6 +39,8 @@ The entire environment is packaged as a self-extracting archive containing:
 - A desktop and Start menu shortcut for easy access to the VB6 IDE
 
 All actions are performed locally on your machine — no system-level installations or persistent changes beyond what's required for VB6 to function.
+
+👉 For detailed technical explanations of the installation and compatibility mechanisms, see [TECHNICAL_NOTES](./TECHNICAL_NOTES.md).
 
 ---
 
