@@ -40,7 +40,7 @@ The entire environment is packaged as a self-extracting archive containing:
 
 All actions are performed locally on your machine — no system-level installations or persistent changes beyond what's required for VB6 to function.
 
-👉 For detailed technical explanations of the installation and compatibility mechanisms, see [TECHNICAL_NOTES](./TECHNICAL_NOTES.md).
+👉 For detailed technical explanations of the installation and compatibility mechanisms, see [TECHNICAL_NOTES](./blob/main/TECHNICAL_NOTES.md).
 
 ---
 

@@ -55,6 +55,8 @@ The archive includes:
 - Automated setup via `.bat` and `.reg` files
 - No patching or hex-editing — just unpack and use
 
+👉 For detailed technical explanations of the installation and compatibility mechanisms, see [TECHNICAL_NOTES](./blob/main/TECHNICAL_NOTES.md).
+
 ---
 
 ## 🧩 Optional: MS Agent Compatibility (Double Agent)
