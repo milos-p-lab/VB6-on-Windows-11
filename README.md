@@ -97,7 +97,7 @@ For example, utilities like `delaycmd.exe` allow precise control over when and h
 
 ## 📖 Technical Notes
 
-For detailed technical explanations of the installation and compatibility mechanisms, see [TECHNICAL_NOTES.md](./TECHNICAL_NOTES.md).
+👉 For detailed technical explanations of the installation and compatibility mechanisms, see [TECHNICAL_NOTES](./TECHNICAL_NOTES.md).
 
 ---
 
