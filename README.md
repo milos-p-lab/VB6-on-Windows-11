@@ -11,7 +11,7 @@ This package provides a ready-to-use setup for running and compiling VB6 project
 👉 For background information, setup explanations, and optional components, see the [blog post](https://milos-p-lab.github.io/VB6-on-Windows-11/blog).
 
 > ✍️ **Author:** Miloš Perunović  
-> 🗓️ **Date:** 2025-09-25
+> 🗓️ **Date:** 2025-10-10
 
 ---
 
@@ -59,63 +59,12 @@ We recommend temporarily disabling real-time protection only during installation
 
 ---
 
-## 💡 Note on ActiveX Component Versions (e.g., mscomctl.ocx)
-
-This setup includes the official versions of key ActiveX components shipped with Microsoft Visual Basic 6.0 Service Pack 6 (SP6).
-For example, `mscomctl.ocx` is provided in version 6.1.98.34, which is the original SP6 release.
-
-You may currently have newer versions of these files installed (e.g., 6.1.98.46, 6.1.98.50), which might have been registered by:
-
-- Microsoft Office (2007–2016)
-- Windows Update security patches
-- Other software bundling ActiveX controls
-
----
-
-## 💾 Automatic Backup Before Overwriting
-
-If an existing OCX/DLL file is found during setup, it will be backed up before being replaced — for example:
-
-``` plaintext
-mscomctl.ocx.old
-comdlg32.ocx.old
-tabctl32.ocx.old
-etc.
-```
-
-This allows you to easily restore your previous version — which may be newer — if you wish to keep it.
-
-👉 Recommendation
-
-If you want to restore a backed-up file, simply re-register it using:
-
-``` batch
-regsvr32 /s "C:\VB6Backup\mscomctl.ocx.old"
-```
-
-Or, for a different file:
-
-``` batch
-regsvr32 /s "C:\VB6Backup\SomeOtherControl.dll.old"
-
-```
-
-(Adjust paths as needed — the `.old` files will be in the same folder as the replaced files unless moved manually.)
-
-This project aims for maximum stability and compatibility with legacy VB6 projects, so original SP6 versions are shipped by default — but your backups give you full control.
-
----
-
 ## 🛠️ Installation
 
 1. Download the `Visual-Basic-6-for-Win11.exe` installer from the [Releases](https://github.com/milos-p-lab/VB6-on-Windows-11/releases/) page.
 2. Run the installer (self-extracting archive) with administrative privileges.
 3. Follow the prompts; all required files will be extracted and configured automatically.
 4. After installation, launch VB6 from the desktop shortcut, which is created automatically by the installer for your convenience.
-
-💡 **Tip:** The installer is a standard WinRAR self-extracting (SFX) archive.  
-If you’d like to review its contents before running, just open the `.exe` with **WinRAR** or **7-Zip** (right-click → *Open with…*).  
-This lets you inspect all included files without starting the installation.
 
 ✅ Tested successfully on:
 
@@ -146,29 +95,9 @@ For example, utilities like `delaycmd.exe` allow precise control over when and h
 
 ---
 
-## 🌟 Looking Ahead: twinBASIC
+## 📖 Technical Notes
 
-While this project makes it possible to run and maintain classic VB6 applications on modern Windows, the **future** of VB6-style development is [twinBASIC](https://twinbasic.com/).
-
-- ✅ 32-bit **and** 64-bit executables  
-- ✅ Modern component support (including WebView2)  
-- ✅ Actively developed and community-driven  
-- ❌ Still missing some legacy-specific features (e.g., DataEnvironment, DataReport, MS Agent/Double Agent), which are important in certain business applications  
-
-This project serves as a **compatibility bridge** — ensuring that old VB6 applications can still be compiled and maintained today, while twinBASIC continues to evolve into a full replacement.  
-
-👉 **Note:** If your project depends on these legacy features, the original VB6 IDE remains the only option for editing and compiling. For all new development, however, twinBASIC is strongly recommended as the long-term solution.
-
----
-
-## ⚖️ License
-
-This repository provides a preconfigured environment based on existing redistributable components. The author does not distribute proprietary software — the package assumes you have the legal right to use VB6 and related tools.
-
-Use at your own risk.
-
-⚠️ **Note on Issues**  
-Only reproducible, VB6-related problems are accepted. Off-topic or untested suggestions will be closed without discussion.  
+For detailed technical explanations of the installation and compatibility mechanisms, see [TECHNICAL_NOTES.md](./TECHNICAL_NOTES.md).
 
 ---
 
@@ -180,5 +109,19 @@ This project is provided **as-is**, with the goal of making legacy VB6 projects 
 - ✅ Suggestions for improvements are welcome **if tested** and directly relevant to VB6 compatibility.
 - ⚠️ Please avoid stylistic feedback (e.g., folder names, comments inside `.bat` files, or alternative approaches without testing).
 - ⚠️ This is **not** a forum for “why do you use VB6?” discussions. The project exists for those who need it.
+- ⚠️ Only reproducible, VB6-related problems are accepted. Off-topic or untested suggestions will be closed without discussion.
 
 Unhelpful or off-topic issues may be closed without further discussion to keep the focus on maintaining legacy VB6 compatibility.
+
+---
+
+## ⚖️ License
+
+This repository provides a preconfigured environment based on existing redistributable components. The author does not distribute proprietary software — the package assumes you have the legal right to use VB6 and related tools.
+
+Use at your own risk.
+
+---
+
+⚖️ © 2025 Miloš Perunović — For educational and legacy maintenance purposes.
+All rights reserved.
