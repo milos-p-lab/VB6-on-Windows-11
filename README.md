@@ -14,7 +14,7 @@ This package provides a ready-to-use setup for running and compiling VB6 project
 
 ## ✅ Features
 
-- Fully working VB6 IDE on Windows XP / 7 / 10 and 11 (including 24H2)
+- Fully working VB6 IDE on Windows XP / 7 / 10 and 11 (including 25H2)
 - No need to manually register ActiveX controls or system DLLs
 - Registry and batch files automate all configuration steps
 - Supports compiling, editing, and running old projects out-of-the-box
@@ -52,7 +52,7 @@ We recommend temporarily disabling real-time protection only during installation
 
 ## ⚠️ Limitations
 
-- The solution has been successfully tested on Windows XP / 7 / 10 / 11 (24H2), but due to variations in system configurations and updates, full compatibility is not guaranteed.
+- The solution has been successfully tested on Windows XP, Server 2003, 7, 10, Server 2019/2022, and 11 (including 25H2), but due to variations in system configurations and updates, full compatibility is not guaranteed.
 - Microsoft officially ended support for VB6 development tools; this package is provided for educational, archival, and legacy support purposes.
 - This setup is **not recommended** for creating new business applications — for long-term development, consider porting to modern technologies such as .NET.
 
@@ -67,9 +67,9 @@ We recommend temporarily disabling real-time protection only during installation
 
 ✅ Tested successfully on:
 
-- **Windows 11 (including 24H2)**
+- **Windows 11 (including 25H2)**
 - **Windows 10**
-- **Windows Server 2022**
+- **Windows Server 2019/2022**
 - **Windows 7 SP1**
 - **Windows Server 2003 R2**
 - **Windows XP SP3**
