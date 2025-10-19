@@ -1,6 +1,6 @@
 # 🛠️ Bringing VB6 Back to Life on Windows 10/11 — Without Virtual Machines
 
-Modern Windows systems (10, 11, and even 24H2) can still run and compile legacy VB6 projects — but only with the right combination of setup, registration, and compatibility tweaks. This project packages everything you need into a single self-extracting installer: **no VM required**, no registry headaches, no missing OCXs.
+Modern Windows systems (10, 11, and even 25H2) can still run and compile legacy VB6 projects — but only with the right combination of setup, registration, and compatibility tweaks. This project packages everything you need into a single self-extracting installer: **no VM required**, no registry headaches, no missing OCXs.
 
 Whether you're fixing a 20-year-old tool, exploring classic codebases, or simply feel at home in the VB6 IDE, this project gives you a ready-to-use experience.
 
@@ -16,7 +16,7 @@ That's how this project began.
 
 ## ⚙️ Challenges with Running VB6 on Windows 10/11
 
-Getting VB6 to run on Windows 11 (especially 24H2) wasn't straightforward. Here are some of the common issues I faced:
+Getting VB6 to run on Windows 11 (especially 25H2) wasn't straightforward. Here are some of the common issues I faced:
 
 - The **original installer fails** or freezes on modern Windows.
 - The IDE loads, but **fails to render** certain controls like `Toolbar`, `StatusBar`, or `ImageList`.
@@ -33,9 +33,9 @@ The process was a mix of research, scripting, testing on fresh machines, and doc
 
 ✅ Tested successfully on:
 
-- **Windows 11 (including 24H2)**
+- **Windows 11 (including 25H2)**
 - **Windows 10**
-- **Windows Server 2022**
+- **Windows Server 2019/2022**
 - **Windows 7 SP1**
 - **Windows Server 2003 R2**
 - **Windows XP SP3**
