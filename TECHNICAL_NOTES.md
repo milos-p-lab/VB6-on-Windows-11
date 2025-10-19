@@ -1,4 +1,4 @@
-# 📖 Technical Notes — VB6 on Windows 7/10/11
+# 📖 Technical Notes — VB6 on Windows 11
 
 This document provides a detailed explanation of the internal mechanisms and compatibility adjustments used by the **VB6 on Windows 10/11** package.  
 These notes are intended for developers, system administrators, and power users who want to understand *how* and *why* the installation works the way it does.
@@ -142,7 +142,7 @@ This project serves as a **compatibility bridge** — ensuring that old VB6 appl
 
 ## 9. Troubleshooting
 
-Always test on a clean VM when in doubt (especially Windows 11 24H2), to isolate environmental issues.
+Always test on a clean VM when in doubt (especially Windows 11 25H2), to isolate environmental issues.
 If custom controls are involved (e.g. Crystal Reports, third-party OCX), ensure all required dependencies are installed and registered.
 Use OLE/COM Object Viewer (oleview.exe) or Sysinternals ProcMon to debug missing registrations.
 
