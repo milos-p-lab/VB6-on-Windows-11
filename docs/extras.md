@@ -31,11 +31,16 @@ If your legacy VB6 apps used **Microsoft Agent** (for text-to-speech or animated
 ## 💡 Additional Notes
 
 - The original **Smart Indenter 3.5** add-in is no longer publicly available.  
-  However, VB6 still includes built-in code formatting via the **Add-In Manager**,  
-  and indentation can also be adjusted manually through `Tools → Options → Editor Format`.  
+  However, VB6 still includes basic formatting options through the **Add-In Manager** and  
+  indentation settings under `Tools → Options → Editor Format`.  
 
 - All tools listed above were verified to work correctly with this VB6 package.  
-- You can add or remove them anytime without affecting VB6 itself.
+- You can add or remove them anytime without affecting VB6 itself.  
+
+> ⚙️ **Future Add-Ins:**  
+> Any free or open-source extensions that are compatible with modern Windows  
+> and do not violate licensing terms will likely be added to future installer releases.  
+> For now, no freely distributable add-ins were found suitable for direct inclusion.  
 
 ---
 
