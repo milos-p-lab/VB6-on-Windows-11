@@ -103,7 +103,7 @@ For example, utilities like `delaycmd.exe` allow precise control over when and h
 ## 🔧 Optional Add-Ins
 
 If you’d like to extend the VB6 IDE with modern or classic utilities, see  
-👉 [extras.md](docs/extras.md) — for recommended add-ins such as Smart Indenter, MZ-Tools, and CodeSmart.
+👉 [extras.md](docs/extras.md) — for recommended add-ins such as MZ-Tools and CodeSmart.
 
 ---
 
