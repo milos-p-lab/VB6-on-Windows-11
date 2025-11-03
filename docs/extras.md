@@ -1,22 +1,50 @@
-# 🔧 Optional Add-Ins for VB6 IDE
+# Optional Add-Ins for VB6 IDE
 
-For those who want to extend the Visual Basic 6 environment with more modern productivity tools, several add-ins can still be used on Windows 10/11:
+This document lists optional and legally distributable extensions that can enhance the VB6 IDE experience on modern Windows systems (10/11).
 
-## 🔹 MZ-Tools 3 for VB6
+These tools are **not included** in the main installer to keep it lightweight and fully license-compliant.  
+All add-ins listed here can be installed manually and integrate seamlessly with VB6 once installed.
 
-- Adds advanced search, code templates, reusable snippets, error-handling generators, and other professional features.
-- Fully compatible with this VB6 setup.
-- Commercial license required (around $79.95).
-- 🔗 [Official website](https://www.mztools.com/)
+---
 
-## 🔹 Smart Indenter (Free)
+## 🧩 MZ-Tools 3 for VB6
 
-- Classic code formatting add-in for consistent indentation in VB6 projects.
-- Works perfectly on modern Windows systems.
+A professional productivity add-in for VB6 with advanced search, code templates, reusable snippets, and error-handling generators.
 
-## 🔹 CodeSmart 2009 (Legacy)
+- 💰 **License:** Commercial (single license ~$79.95)
+- ⚙️ **Compatibility:** Fully compatible with this VB6 setup
+- 🔗 [Official website](https://www.mztools.com/v3/mztools3.aspx)
 
-- An older but powerful refactoring and navigation suite for VB6 (no longer maintained).
-- Works partially on Windows 10/11, but may require compatibility mode.
+---
 
-> These add-ins are not included in the default installer to keep the package lightweight and license-compliant, but all of them can be installed manually if desired.
+## 🧱 Smart Indenter (Open Source Fork)
+
+A modern open-source version of the classic VB6 Smart Indenter add-in.  
+Automatically reformats your code with consistent indentation and structure.
+
+- 🆓 **License:** MIT (Free & Open Source)
+- 🔗 [GitHub Repository (wqweto/VB6Tools)](https://github.com/wqweto/VB6Tools)
+- 🧰 Includes several other small IDE utilities for VB6 developers.
+
+---
+
+## 🗣️ Double Agent (MS Agent Replacement)
+
+If your legacy VB6 applications used Microsoft Agent (e.g. for text-to-speech or animated assistants),  
+**Double Agent** provides a modern, 64-bit compatible implementation.
+
+- 🆓 **License:** Freeware
+- 🔗 [Official website](http://doubleagent.sourceforge.net/)
+- 📘 Compatible with Windows 10 and 11 (both x86 and x64)
+
+---
+
+## 💡 Notes
+
+- All listed tools were verified to work with the current VB6 package.
+- Add-ins are optional and independent of the main installation — they don’t modify or replace any core IDE files.
+- You can install or remove them at any time without affecting VB6 itself.
+
+---
+
+> 🧠 *Tip:* If you create or discover a new open-source VB6 utility that works well on Windows 11, consider submitting a suggestion or pull request so it can be listed here.
